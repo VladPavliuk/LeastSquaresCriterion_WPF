@@ -5,8 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:LinearRegressionLeastSquaresCriterion"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="740" Width="750">
     <Grid>
-        
+        <Canvas ClipToBounds="True" Name="GraphPlain" HorizontalAlignment="Left" Height="600" Margin="10,10,10,10" VerticalAlignment="Top" Width="720"/>
+        <Label Content="" Name="GraphLable" HorizontalAlignment="Left" Margin="10,615,0,0" VerticalAlignment="Top" RenderTransformOrigin="0,0" FontSize="42" FontWeight="Bold"/>
     </Grid>
 </Window>
